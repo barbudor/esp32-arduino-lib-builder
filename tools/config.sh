@@ -34,7 +34,7 @@ AR_USER="tasmota"
 AR_REPO="$AR_USER/arduino-esp32"
 
 # Arduino branch to use
-AR_BRANCH="esp32-s3-support"
+AR_BRANCH="s3_test"
 
 AR_REPO_URL="https://github.com/$AR_REPO.git"
 if [ -n $GITHUB_TOKEN ]; then
